@@ -10,7 +10,7 @@ The code is available at github:
 [https://github.com/Rabeaf/loopmac](https://github.com/Rabeaf/loopmac)
 
 The current running version is at netlify:
-[https://61334862eec6070008fc95af--heuristic-almeida-4a8bf1.netlify.app/](https://61334862eec6070008fc95af--heuristic-almeida-4a8bf1.netlify.app/)
+[https://heuristic-almeida-4a8bf1.netlify.app/](https://heuristic-almeida-4a8bf1.netlify.app/)
 
 # Getting Started with Create React App
 
