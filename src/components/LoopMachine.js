@@ -149,9 +149,16 @@ const LoopMachine = () => {
     <div className='loopmachine'>
       <div className='desc'>
       <h1>Welcome to The Loop Machine </h1>
-      <p>Choose the tunes you wish to play then click on play, then you can unselect them to mute them or select new ones to add them.</p>
-      <p>If you wish to record a session choose the ones you wish to start with, if unselected you will begin the recording with a gap of 8 seconds,
-        afterwards the selected sound is added, unselecting a sound before the 8 seconds gap end will cause it not to be recorded.  </p>
+      <p>
+        This machine imitates a loop machine, a machine that allows you to combine different sounds. This machine is based on 8 seconds intervals,
+        allowing you to add sounds at the beginning of every interval. Choose the tunes you wish to play then click on play, then you can deselect
+        them to mute them or select new ones to add (which will be added when the current interval has ended).
+      </p>
+      <p>
+        If you wish to record a session choose the beats you wish to start with before starting the recording, if unselected you will begin the
+        recording with a silent gap of 8 seconds, afterwards the selected sounds are added. unselecting a sound before the end of the interval 
+        will cause it not to be recorded.
+      </p>
       </div>
       
       <NavBar play={play} toggle={toggle} record={record} toggleR={toggleR} recorded={recorded} playRecording={playRecording}/>

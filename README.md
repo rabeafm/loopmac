@@ -1,3 +1,17 @@
+#The Loop Machine
+
+This machine imitates a loop machine, a machine that allows you to combine different sounds. This machine is based on 8 seconds intervals, allowing you to add sounds at the beginning of every interval. Choose the tunes you wish to play then click on play, then you can deselect them to mute them or select new ones to add (which will be added when the current interval has ended).
+
+If you wish to record a session choose the beats you wish to start with before starting the recording, if unselected you will begin the recording with a silent gap of 8 seconds, afterwards the selected sounds are added. unselecting a sound before the end of the interval will cause it not to be recorded.
+
+The loop Machine was developed as a component in React, it was made as an ad-hoc application which you add to any website with minimal adaptations.
+
+The code is available at github:
+[https://github.com/Rabeaf/loopmac](https://github.com/Rabeaf/loopmac)
+
+The current running version is at netlify:
+[https://61334862eec6070008fc95af--heuristic-almeida-4a8bf1.netlify.app/](https://61334862eec6070008fc95af--heuristic-almeida-4a8bf1.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
