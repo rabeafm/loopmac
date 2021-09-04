@@ -1,12 +1,5 @@
-import './App.css';
 import LoopMachine from './components/LoopMachine';
 
-function App() {
-  return (
-    <div className="App">
-      <LoopMachine />
-    </div>
-  );
-}
-
+const App = () => <LoopMachine />
+  
 export default App;

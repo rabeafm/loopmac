@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 import NavBar from "./NavBar";
 import Pad from "./Pad";
+import './LoopMachine.css';
 
 const SOUNDS = [
   {
@@ -145,16 +146,21 @@ const LoopMachine = () => {
   }
 
   return (
-    <Fragment>
-      <h1>Welcome to Loop Machine </h1>
+    <div className='loopmachine'>
+      <div className='desc'>
+      <h1>Welcome to The Loop Machine </h1>
       <p>Choose the tunes you wish to play then click on play, then you can unselect them to mute them or select new ones to add them.</p>
       <p>If you wish to record a session choose the ones you wish to start with, if unselected you will begin the recording with a gap of 8 seconds,
         afterwards the selected sound is added, unselecting a sound before the 8 seconds gap end will cause it not to be recorded.  </p>
+      </div>
+      
       <NavBar play={play} toggle={toggle} record={record} toggleR={toggleR} recorded={recorded} playRecording={playRecording}/>
+      <div className='pads'>
       {audioArray.map((audio) =>     
                <Pad key={audio.num} num={audio.num} name={audio.name} playlist={playlist} togglePlaylist={togglePlaylist} />
         )}
-    </Fragment>
+      </div>
+    </div>
   );
 };
 
