@@ -4,6 +4,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  color: #E27D60;
+}
+
+p {
+  text-align: left;
+  padding: 5px 20px;
+  color: #E27D60;
 }
 
 body {
@@ -13,16 +24,19 @@ body {
   font-size: 18px;
   letter-spacing: 0.025rem;
   line-height: 1.6;
+  display: flex;
 }
 
 .btn {
   margin: 3vh 4vw;
-  height: 20vh;
+  min-height: 22vh;
+  max-height: 22vh;
   width: 24vw;
   background: #85dcb0;
   border: 5px solid #41b3a3;
   color: #41b3a3;
   font-size: 18px;
+  word-wrap: break-word;
   transition: all 1s ease-out;
 }
 
@@ -32,12 +46,17 @@ body {
 }
 
 .navbtn {
-  height: 10vh;
+  margin: 3vh 4vw;
   border-color: #E8A87C;
   color: #E8A87C;
+  background: #c38d9e;
+  min-height: 10vh;
+  max-height: 10vh;
   border: 5px solid #E8A87C;
   font-size: 2rem;
   transition: all 1s ease-out;
+  width: 24vw;
+
 }
 
 .btnclk {
