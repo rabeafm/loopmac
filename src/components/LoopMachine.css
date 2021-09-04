@@ -49,8 +49,8 @@ p {
   }
 
 .navbtn {
-    margin: 0 50px;
-    color: #f4f4f4;
+  margin: 10px 10px;
+  color: #f4f4f4;
     background: #44318d;
     height: 70px;
     width: 160px;
@@ -61,7 +61,6 @@ p {
 }
 
 .hidbtn{
-    margin: 0 50px;
     height: 70px;
     width: 160px;
     opacity: 0;
@@ -69,7 +68,6 @@ p {
 
 .pads {
     margin: 10px;
-    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -89,8 +87,16 @@ p {
     word-wrap: break-word;
 }
 
-
 .btnclk {
     border: 5px solid #d83f87;
     color: #E27D60;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    margin: 10px 5px;
+    height: 120px;
+    width: 150px;
+    font-size: 1rem;
+}
 }
