@@ -1,4 +1,4 @@
-#The Loop Machine
+# The Loop Machine
 
 This machine imitates a loop machine, a machine that allows you to combine different sounds. This machine is based on 8 seconds intervals, allowing you to add sounds at the beginning of every interval. Choose the tunes you wish to play then click on play, then you can deselect them to mute them or select new ones to add (which will be added when the current interval has ended).
 
