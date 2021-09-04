@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 const NavBar = ({play, toggle, record, toggleR, recording, playRecording}) => { 
   //let playrecord = "";
