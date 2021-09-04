@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import Pad from "./Pad";
 import './LoopMachine.css';
